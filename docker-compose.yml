@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   my-postgres:
-    image: postgres:15
+    image: postgres:latest
     container_name: db
     environment:
      - POSTGRES_DB=${DATABASE_NAME}
@@ -17,7 +17,7 @@ services:
     build: .
     container_name: django
     ports:
-      - '8000:8000'
+      - "8081:8000"
     volumes:
       - .:/app
     environment:
