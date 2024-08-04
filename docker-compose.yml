@@ -18,8 +18,6 @@ services:
     container_name: django
     ports:
       - "8081:8000"
-    volumes:
-      - .:/app
     environment:
       - DJANGO_ENV=${DJANGO_ENV}
       - DATABASE_NAME=${DATABASE_NAME}
