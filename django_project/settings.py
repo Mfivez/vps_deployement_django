@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-69k-#kmlre&rb4uhf2*d5foi+1ee)wsck_%9z*--wbit3_dk9e
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'h8c0c8k.148.113.191.48.sslip.io',
+    'hgkwk8k.148.113.191.48.sslip.io',
     'localhost',
     '127.0.0.1',
     'your-domain.com',  # Ajoutez ici les autres domaines que vous souhaitez autoriser
